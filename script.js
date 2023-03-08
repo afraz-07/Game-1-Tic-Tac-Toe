@@ -76,7 +76,7 @@ function checkWinner() {
     }
 
     if (isWon) {
-        result.textContent = `${currentplayer} Won`;
+        result.textContent = `${currentplayer} Won the Game`;
         running = false;
     }
     else if (!options.includes("")) {
