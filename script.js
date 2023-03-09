@@ -102,3 +102,7 @@ function changePlayer() {
 function restartGame() {
     location.reload(true);
 }
+
+function(){
+    
+}
