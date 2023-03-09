@@ -75,9 +75,11 @@ function checkWinner() {
         }
     }
 
+
     if (isWon) {
         result.textContent = `${currentplayer} Won the Game`;
         running = false;
+        result.classList.add("animation")
     }
     else if (!options.includes("")) {
         result.textContent = "Game Draw";
@@ -92,6 +94,9 @@ function changePlayer() {
     player = (player == "X") ? "O" : "X";
     currentplayer = (currentplayer == x) ? o : x;
     result.textContent = `${currentplayer} Your Turn `;
+
+    
+
 }
 
 function restartGame() {

@@ -118,6 +118,29 @@ body{
 .win{
     animation: winanime ease-in-out 1s infinite;
 }
+
+
+.animation {
+    text-align: center;
+    font-size: 36px;
+    animation: animation 1s ease-in-out infinite;
+    color: white;
+  }
+  
+  @keyframes animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+
+
  
 @keyframes winanime {
     0% {background-color: rgb(66, 66, 66);}
