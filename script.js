@@ -103,6 +103,3 @@ function restartGame() {
     location.reload(true);
 }
 
-function(){
-    
-}
